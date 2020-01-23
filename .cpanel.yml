@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zaharian/public_html/git-deployment
+    - cp -r * $DEPLOYPATH
+    
